@@ -1,0 +1,6 @@
+# npmd-rebuild
+
+
+## License
+
+MIT

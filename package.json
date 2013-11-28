@@ -1,0 +1,21 @@
+{
+  "name": "npmd-rebuild",
+  "description": "rebuild npm packages, as standalone tool",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/npmd-rebuild",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/npmd-rebuild.git"
+  },
+  "dependencies": {
+    "npmd-config": "~1.0.7",
+    "npmd-tree": "~3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "bin": "./index.js",
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
