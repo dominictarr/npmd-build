@@ -1,7 +1,7 @@
 {
   "name": "npmd-rebuild",
   "description": "rebuild npm packages, as standalone tool",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/dominictarr/npmd-rebuild",
   "repository": {
     "type": "git",
@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "npmd-config": "~1.0.7",
-    "npmd-tree": "~3.3.3"
+    "npmd-tree": "~3.3.4",
+    "node-gyp": "~0.12.1"
   },
   "devDependencies": {},
   "scripts": {
