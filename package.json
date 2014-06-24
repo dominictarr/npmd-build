@@ -1,7 +1,7 @@
 {
   "name": "npmd-build",
   "description": "build npm packages, as standalone tool",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/dominictarr/npmd-build",
   "repository": {
     "type": "git",
